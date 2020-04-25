@@ -1,0 +1,138 @@
+#outer {
+	border: 2px dashed black;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+    margin: 10px;
+    float: left;
+}
+
+.after-box {
+    clear: left;
+  }
+
+  ul {
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  li {
+    display: inline;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+  }
+
+  .main
+  {
+    background-color: lightgray;
+    overflow: hidden;
+    padding: 10px;
+    width: 500px;
+  }
+
+  h1 {
+    background-color: yellow;
+  }
+
+  #column1, #column2
+  {
+    background-color: lightblue;
+    float: right;
+    width: 100px;
+    margin-left: 10px;
+  }
+
+
+  #a, #b {
+	width: 100px;
+	height: 100px;
+	font: 30pt bold Helvetica, Arial, sans-serif;
+	line-height: 100px;
+	text-align: center;
+}
+/* 1 
+.abc
+{
+    width: 300px;
+}
+#a {
+    background-color: lightblue;
+    float: left;
+}
+
+#b {
+    float: right;
+	background-color: pink;
+}
+
+#c {
+    width: 300px;
+	background-color: lightgray;
+}
+*/
+
+/* 2 
+.abc
+{
+    width: 300px;
+}
+#a {
+    background-color: lightblue;
+    float: left;
+}
+
+#b {
+    float: right;
+    clear: left;
+	background-color: pink;
+}
+
+#c {
+    width: 300px;
+	background-color: lightgray;
+}
+*/
+/* 3 
+.abc
+{
+    width: 300px;
+}
+#a {
+    background-color: lightblue;
+    float: left;
+}
+
+#b {
+    float: right;
+    clear: left;
+	background-color: pink;
+}
+
+#c {
+    width: 300px;
+    background-color: lightgray;
+    clear: left;
+    text-align: right;
+}
+*/
+/* 3 */
+#a {
+    float: right;
+  }
+  #b {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+  }
+  #c {
+    clear: right;
+    text-align: center;
+    margin-right: 100px;
+  }
